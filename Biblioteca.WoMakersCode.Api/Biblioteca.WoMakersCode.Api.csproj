@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Biblioteca.WoMakersCode.Application\Biblioteca.WoMakersCode.Application.csproj" />
+    <ProjectReference Include="..\Biblioteca.WoMakersCode.Core\Biblioteca.WoMakersCode.Core.csproj" />
+    <ProjectReference Include="..\Biblioteca.WoMakersCode.infra\Biblioteca.WoMakersCode.infra.csproj" />
+  </ItemGroup>
+
+</Project>

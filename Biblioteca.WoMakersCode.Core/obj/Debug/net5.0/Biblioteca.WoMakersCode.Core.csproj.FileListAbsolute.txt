@@ -1,0 +1,12 @@
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Core\bin\Debug\net5.0\Biblioteca.WoMakersCode.Core.deps.json
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Core\bin\Debug\net5.0\Biblioteca.WoMakersCode.Core.dll
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Core\bin\Debug\net5.0\Biblioteca.WoMakersCode.Core.pdb
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Core\obj\Debug\net5.0\Biblioteca.WoMakersCode.Core.csproj.AssemblyReference.cache
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Core\obj\Debug\net5.0\Biblioteca.WoMakersCode.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Core\obj\Debug\net5.0\Biblioteca.WoMakersCode.Core.AssemblyInfoInputs.cache
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Core\obj\Debug\net5.0\Biblioteca.WoMakersCode.Core.AssemblyInfo.cs
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Core\obj\Debug\net5.0\Biblioteca.WoMakersCode.Core.csproj.CoreCompileInputs.cache
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Core\obj\Debug\net5.0\Biblioteca.WoMakersCode.Core.dll
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Core\obj\Debug\net5.0\refint\Biblioteca.WoMakersCode.Core.dll
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Core\obj\Debug\net5.0\Biblioteca.WoMakersCode.Core.pdb
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Core\obj\Debug\net5.0\ref\Biblioteca.WoMakersCode.Core.dll

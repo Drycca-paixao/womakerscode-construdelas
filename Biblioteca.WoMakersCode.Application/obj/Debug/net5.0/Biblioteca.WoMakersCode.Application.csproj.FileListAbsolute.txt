@@ -1,0 +1,15 @@
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\bin\Debug\net5.0\Biblioteca.WoMakersCode.Application.deps.json
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\bin\Debug\net5.0\Biblioteca.WoMakersCode.Application.dll
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\bin\Debug\net5.0\Biblioteca.WoMakersCode.Application.pdb
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\bin\Debug\net5.0\Biblioteca.WoMakersCode.Core.dll
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\bin\Debug\net5.0\Biblioteca.WoMakersCode.Core.pdb
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\obj\Debug\net5.0\Biblioteca.WoMakersCode.Application.csproj.AssemblyReference.cache
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\obj\Debug\net5.0\Biblioteca.WoMakersCode.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\obj\Debug\net5.0\Biblioteca.WoMakersCode.Application.AssemblyInfoInputs.cache
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\obj\Debug\net5.0\Biblioteca.WoMakersCode.Application.AssemblyInfo.cs
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\obj\Debug\net5.0\Biblioteca.WoMakersCode.Application.csproj.CoreCompileInputs.cache
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\obj\Debug\net5.0\Biblioteca.WoMakersCode.Application.csproj.CopyComplete
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\obj\Debug\net5.0\Biblioteca.WoMakersCode.Application.dll
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\obj\Debug\net5.0\refint\Biblioteca.WoMakersCode.Application.dll
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\obj\Debug\net5.0\Biblioteca.WoMakersCode.Application.pdb
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Application\obj\Debug\net5.0\ref\Biblioteca.WoMakersCode.Application.dll
