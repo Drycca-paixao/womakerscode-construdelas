@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Biblioteca.WoMakersCode.Application.Models.AdicionarAutor;
 using Biblioteca.WoMakersCode.Application.Models.AdicionarUsuario;
 using Biblioteca.WoMakersCode.Core.Entities;
 using System;
@@ -17,6 +18,10 @@ namespace Biblioteca.WoMakersCode.Application.Mappings
                 .ForMember(dest => dest.Nome, fonte => fonte.MapFrom(src => src.Nome))
                 .ForMember(dest => dest.Endereco, fonte => fonte.MapFrom(src => src.Endereco))
                 .ForMember(dest => dest.Telefone, fonte => fonte.MapFrom(src => src.Telefone));
+
+            CreateMap<AdicionarAutorRequest, Autor>()
+                .ForMember(dest => dest.Nome, fonte => fonte.MapFrom(src => src.Nome));
         }
+
     }
 }

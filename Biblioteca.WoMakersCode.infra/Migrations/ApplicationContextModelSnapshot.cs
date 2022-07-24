@@ -18,6 +18,46 @@ namespace Biblioteca.WoMakersCode.infra.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Biblioteca.WoMakersCode.Core.Entities.Autor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("VARCHAR(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("autores");
+                });
+
+            modelBuilder.Entity("Biblioteca.WoMakersCode.Core.Entities.Livro", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("IdAutor")
+                        .HasColumnType("int");
+
+                    b.Property<int>("QuantidadeDisponivel")
+                        .HasColumnType("INT");
+
+                    b.Property<string>("Titulo")
+                        .IsRequired()
+                        .HasColumnType("VARCHAR(100)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IdAutor");
+
+                    b.ToTable("livros");
+                });
+
             modelBuilder.Entity("Biblioteca.WoMakersCode.Core.Entities.Usuario", b =>
                 {
                     b.Property<int>("Id")
@@ -39,6 +79,22 @@ namespace Biblioteca.WoMakersCode.infra.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("usuarios");
+                });
+
+            modelBuilder.Entity("Biblioteca.WoMakersCode.Core.Entities.Livro", b =>
+                {
+                    b.HasOne("Biblioteca.WoMakersCode.Core.Entities.Autor", "Autor")
+                        .WithMany("Livros")
+                        .HasForeignKey("IdAutor")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Autor");
+                });
+
+            modelBuilder.Entity("Biblioteca.WoMakersCode.Core.Entities.Autor", b =>
+                {
+                    b.Navigation("Livros");
                 });
 #pragma warning restore 612, 618
         }

@@ -7,9 +7,14 @@ C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Bibl
 C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\Biblioteca.WoMakersCode.Api.pdb
 C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\Humanizer.dll
 C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\drycc\Documents\CONSTRUDELAS\Net Core\APIs\Biblioteca.WoMakersCode\Biblioteca.WoMakersCode.Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll

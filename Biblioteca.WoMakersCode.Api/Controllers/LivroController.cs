@@ -9,7 +9,7 @@ namespace Biblioteca.WoMakersCode.Api.Controllers
 {
     [ApiController]
     [Route("api/livros")]
-    public class LivrosController : ControllerBase
+    public class LivroController : ControllerBase
     {
         [HttpGet]
         public string Get()

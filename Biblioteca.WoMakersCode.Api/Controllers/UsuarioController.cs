@@ -7,11 +7,11 @@ namespace Biblioteca.WoMakersCode.Api.Controllers
 {
     [ApiController]
     [Route("api/usuarios")]
-    public class UsuariosController : ControllerBase
+    public class UsuarioController : ControllerBase
     {
         private readonly IUseCaseAsync<AdicionarUsuarioRequest, AdicionarUsuarioResponse> _useCaseAsync;
 
-        public UsuariosController(IUseCaseAsync<AdicionarUsuarioRequest, AdicionarUsuarioResponse> useCaseAsync)
+        public UsuarioController(IUseCaseAsync<AdicionarUsuarioRequest, AdicionarUsuarioResponse> useCaseAsync)
         {
             _useCaseAsync = useCaseAsync;
         }

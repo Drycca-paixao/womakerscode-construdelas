@@ -9,5 +9,6 @@ namespace Biblioteca.WoMakersCode.Core.Repositories
 {
     public interface IAutorRepository : IRepository<Autor>
     {
+        Task Inserir(Autor obj);
     }
 }

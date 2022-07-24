@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Biblioteca.WoMakersCode.Api",
+    "\\Biblioteca.WoMakersCode.Application",
+    "\\Biblioteca.WoMakersCode.Application\\Models",
+    "\\Biblioteca.WoMakersCode.Application\\Models\\AdicionarUsuario",
+    "\\Biblioteca.WoMakersCode.infra",
+    "\\Biblioteca.WoMakersCode.infra\\Migrations"
+  ],
+  "SelectedNode": "\\Biblioteca.WoMakersCode.Application\\Models\\AdicionarUsuario\\AdicionarUsuarioRequest.cs",
+  "PreviewInSolutionExplorer": false
+}

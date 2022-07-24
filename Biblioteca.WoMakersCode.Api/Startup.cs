@@ -1,4 +1,5 @@
 using Biblioteca.WoMakersCode.Application.Mappings;
+using Biblioteca.WoMakersCode.Application.Models.AdicionarAutor;
 using Biblioteca.WoMakersCode.Application.Models.AdicionarUsuario;
 using Biblioteca.WoMakersCode.Application.UseCases;
 using Biblioteca.WoMakersCode.Core.Repositories;
@@ -38,12 +39,13 @@ namespace Biblioteca.WoMakersCode.Api
             services.AddTransient<ILivroRepository, LivroRepository>();
             services.AddTransient<IUsuarioRepository, UsuarioRepository>();
             services.AddTransient<IUseCaseAsync<AdicionarUsuarioRequest, AdicionarUsuarioResponse>, AdicionarUsuarioUseCase>();
+            services.AddTransient<IUseCaseAsync<AdicionarAutorRequest, AdicionarAutorResponse>, AdicionarAutorUseCase>();
             services.AddAutoMapper(typeof(MappingProfile));
-            services.AddDbContext<ApplicationContext>(); 
             
-            //services.AddDbContext<ApplicationContext>(db => 
-            //    db.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
-            //    );
+            services.AddDbContext<ApplicationContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
+                .UseLoggerFactory(LoggerFactory.Create(builder => builder.AddConsole()))
+                );             
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

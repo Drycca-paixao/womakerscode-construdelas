@@ -1,8 +1,11 @@
-﻿namespace Biblioteca.WoMakersCode.Core.Entities
+﻿using System.Collections.Generic;
+
+namespace Biblioteca.WoMakersCode.Core.Entities
 {
     public class Autor
     {
         public int Id { get; set; }
         public string Nome { get; set; }
+        public List<Livro> Livros { get; set; }
     }
 }

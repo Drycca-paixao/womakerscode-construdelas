@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "KuKCtssqfUvIgyuGh+AROjxPtMspL/lBbTxceAGIknkIiUnYfj73Dd+8iGepr7JV3vzhnDht9U4lvd4clM+A9w==",
+  "dgSpecHash": "+BTsoRnXWR9FG/P7o7fqALQPnONtbKmdmGAEo3G5DmbVYhrkaTThnCFo91Ue3H2dI58378lTPdEZqPD/HFRJ7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\drycc\\Documents\\CONSTRUDELAS\\Net Core\\APIs\\Biblioteca.WoMakersCode\\Biblioteca.WoMakersCode.Application\\Biblioteca.WoMakersCode.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\drycc\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\drycc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\drycc\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
+    "C:\\Users\\drycc\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.1.2\\fluentvalidation.aspnetcore.11.1.2.nupkg.sha512",
+    "C:\\Users\\drycc\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.1.0\\fluentvalidation.dependencyinjectionextensions.11.1.0.nupkg.sha512",
     "C:\\Users\\drycc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\drycc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\drycc\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",

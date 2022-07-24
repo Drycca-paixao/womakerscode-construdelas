@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Biblioteca.WoMakersCode.Core.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,20 +10,23 @@ namespace Biblioteca.WoMakersCode.infra.Database
 {
     public class ApplicationContext : DbContext
     {
-        //public ApplicationContext(DbContextOptions<ApplicationContext> options)
-        //    : base(options)
-        //{
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Autor> Autores { get; set; }
+        public DbSet<Livro> Livros { get; set; }
 
-        //}
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public ApplicationContext(DbContextOptions<ApplicationContext> options)
+            : base(options)
+
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-DRY23;Database=biblioteca;Trusted_Connection=True;MultipleActiveResultSets=true");
+
         }
-    
+                
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-                modelBuilder.ApplyConfiguration(new UsuarioConfiguration());
+            modelBuilder.ApplyConfiguration(new UsuarioConfiguration());
+            modelBuilder.ApplyConfiguration(new AutorConfiguration());
+            modelBuilder.ApplyConfiguration(new LivroConfiguration());
         }
     }
 }
