@@ -1,5 +1,7 @@
 ﻿using Biblioteca.WoMakersCode.Core.Entities;
 using Biblioteca.WoMakersCode.Core.Repositories;
+using Biblioteca.WoMakersCode.infra.Database;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +12,12 @@ namespace Biblioteca.WoMakersCode.infra.Repositories
 {
     public class LivroRepository : ILivroRepository
     {
+        private readonly ApplicationContext _context;
+        public LivroRepository(ApplicationContext context)
+        {
+            _context = context;
+        }      
+        
         public async Task Atualizar(Livro obj)
         {
             throw new NotImplementedException();
@@ -32,7 +40,10 @@ namespace Biblioteca.WoMakersCode.infra.Repositories
 
         public async Task<IEnumerable<Livro>> ListarTodos()
         {
-            throw new NotImplementedException();
+            return await _context
+                .Livros
+                .AsNoTracking()
+                .ToListAsync();
         }
     }
 }

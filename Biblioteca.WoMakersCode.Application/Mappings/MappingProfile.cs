@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Biblioteca.WoMakersCode.Application.Models.AdicionarAutor;
 using Biblioteca.WoMakersCode.Application.Models.AdicionarUsuario;
+using Biblioteca.WoMakersCode.Application.Models.ListarLivros;
 using Biblioteca.WoMakersCode.Core.Entities;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,14 @@ namespace Biblioteca.WoMakersCode.Application.Mappings
 
             CreateMap<AdicionarAutorRequest, Autor>()
                 .ForMember(dest => dest.Nome, fonte => fonte.MapFrom(src => src.Nome));
+
+            CreateMap<Livro, ListarLivrosResponse>()
+                .ForMember(dest => dest.Id, fonte => fonte.MapFrom(src => src.Id))
+                .ForMember(dest => dest.Titulo, fonte => fonte.MapFrom(src => src.Titulo))
+                .ForMember(dest => dest.QuantidadeDisponivel, fonte => fonte.MapFrom(src => src.QuantidadeDisponivel))
+                .ForMember(dest => dest.IdAutor, fonte => fonte.MapFrom(src => src.IdAutor));
+
+
         }
 
     }

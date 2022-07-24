@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Biblioteca.WoMakersCode.Application.Models.ListarLivros;
+using Biblioteca.WoMakersCode.Application.UseCases;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -10,16 +12,19 @@ namespace Biblioteca.WoMakersCode.Api.Controllers
     [ApiController]
     [Route("api/livros")]
     public class LivroController : ControllerBase
-    {
+    {        
+        private readonly IUseCaseAsync<ListarLivrosRequest, List<ListarLivrosResponse>> _useCase;
+
+        public LivroController(IUseCaseAsync<ListarLivrosRequest, List<ListarLivrosResponse>> useCase)
+        {
+            _useCase = useCase;
+        }
+
         [HttpGet]
-        public string Get()
+        public async Task<ActionResult<List<ListarLivrosResponse>>> Get([FromQuery] ListarLivrosRequest request)
         {
-            return "Novo Livro";
+            return await _useCase.ExecuteAsync(request);
         }
-        [HttpPost]
-        public string GetTeste([FromHeader] string header)
-        {
-            return header;
-        }
+        
     }
 }

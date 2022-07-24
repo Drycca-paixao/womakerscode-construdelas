@@ -1,6 +1,7 @@
 using Biblioteca.WoMakersCode.Application.Mappings;
 using Biblioteca.WoMakersCode.Application.Models.AdicionarAutor;
 using Biblioteca.WoMakersCode.Application.Models.AdicionarUsuario;
+using Biblioteca.WoMakersCode.Application.Models.ListarLivros;
 using Biblioteca.WoMakersCode.Application.UseCases;
 using Biblioteca.WoMakersCode.Core.Repositories;
 using Biblioteca.WoMakersCode.infra.Database;
@@ -40,6 +41,7 @@ namespace Biblioteca.WoMakersCode.Api
             services.AddTransient<IUsuarioRepository, UsuarioRepository>();
             services.AddTransient<IUseCaseAsync<AdicionarUsuarioRequest, AdicionarUsuarioResponse>, AdicionarUsuarioUseCase>();
             services.AddTransient<IUseCaseAsync<AdicionarAutorRequest, AdicionarAutorResponse>, AdicionarAutorUseCase>();
+            services.AddTransient<IUseCaseAsync<ListarLivrosRequest, List<ListarLivrosResponse>>, ListarLivrosUseCase>();
             services.AddAutoMapper(typeof(MappingProfile));
             
             services.AddDbContext<ApplicationContext>(options =>
