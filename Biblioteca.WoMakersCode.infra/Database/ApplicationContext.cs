@@ -13,6 +13,7 @@ namespace Biblioteca.WoMakersCode.infra.Database
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Autor> Autores { get; set; }
         public DbSet<Livro> Livros { get; set; }
+        public DbSet<Emprestimo> Emprestimos { get; set; }
 
 
         public ApplicationContext(DbContextOptions<ApplicationContext> options)
@@ -27,6 +28,8 @@ namespace Biblioteca.WoMakersCode.infra.Database
             modelBuilder.ApplyConfiguration(new UsuarioConfiguration());
             modelBuilder.ApplyConfiguration(new AutorConfiguration());
             modelBuilder.ApplyConfiguration(new LivroConfiguration());
+            modelBuilder.ApplyConfiguration(new EmprestimoConfiguration());
+            
         }
     }
 }

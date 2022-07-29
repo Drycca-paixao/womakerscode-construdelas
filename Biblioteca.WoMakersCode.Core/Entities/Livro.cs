@@ -1,4 +1,6 @@
-﻿namespace Biblioteca.WoMakersCode.Core.Entities
+﻿using System.Collections.Generic;
+
+namespace Biblioteca.WoMakersCode.Core.Entities
 {
     public class Livro
     {
@@ -7,5 +9,6 @@
         public int QuantidadeDisponivel { get; set; }
         public int IdAutor { get; set; }
         public Autor Autor { get; set; }
+        public List<Emprestimo> Emprestimos { get; set; }
     }
 }

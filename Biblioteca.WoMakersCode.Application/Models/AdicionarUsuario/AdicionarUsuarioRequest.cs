@@ -26,7 +26,7 @@ namespace Biblioteca.WoMakersCode.Application.Models.AdicionarUsuario
                 .WithMessage("Nome não pode ser nulo");
         }
 
-        internal object Validate(AdicionarAutorRequest request)
+        public object Validate(AdicionarAutorRequest request)
         {
             throw new NotImplementedException();
         }

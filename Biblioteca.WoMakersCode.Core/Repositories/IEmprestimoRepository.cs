@@ -9,5 +9,7 @@ namespace Biblioteca.WoMakersCode.Core.Repositories
 {
     public interface IEmprestimoRepository: IRepository<Emprestimo>
     {
+        Task<Emprestimo> ListarPorIdParaAtualizarEmprestimo(int id);
+        Task<List<Emprestimo>> ListarEmprestimosEmAtraso(int diasParaDevolucao);
     }
 }

@@ -22,7 +22,7 @@ namespace Biblioteca.WoMakersCode.infra.Repositories
             throw new NotImplementedException();
         }
 
-        public async Task Excluir(int id)
+        public Task Excluir(Autor obj)
         {
             throw new NotImplementedException();
         }

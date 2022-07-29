@@ -1,6 +1,8 @@
-using Biblioteca.WoMakersCode.Application.Mappings;
+﻿using Biblioteca.WoMakersCode.Application.Mappings;
 using Biblioteca.WoMakersCode.Application.Models.AdicionarAutor;
 using Biblioteca.WoMakersCode.Application.Models.AdicionarUsuario;
+using Biblioteca.WoMakersCode.Application.Models.AtualizarDevolucaoLivro;
+using Biblioteca.WoMakersCode.Application.Models.ExcluirEmprestimo;
 using Biblioteca.WoMakersCode.Application.Models.ListarLivros;
 using Biblioteca.WoMakersCode.Application.UseCases;
 using Biblioteca.WoMakersCode.Core.Repositories;
@@ -8,18 +10,13 @@ using Biblioteca.WoMakersCode.infra.Database;
 using Biblioteca.WoMakersCode.infra.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Biblioteca.WoMakersCode.Api
 {
@@ -42,12 +39,14 @@ namespace Biblioteca.WoMakersCode.Api
             services.AddTransient<IUseCaseAsync<AdicionarUsuarioRequest, AdicionarUsuarioResponse>, AdicionarUsuarioUseCase>();
             services.AddTransient<IUseCaseAsync<AdicionarAutorRequest, AdicionarAutorResponse>, AdicionarAutorUseCase>();
             services.AddTransient<IUseCaseAsync<ListarLivrosRequest, List<ListarLivrosResponse>>, ListarLivrosUseCase>();
+            services.AddTransient<IUseCaseAsync<AtualizarDevolucaoLivroRequest, AtualizarDevolucaoLivroResponse>, AtualizarDevolucaoLivroUseCase>();
+            services.AddTransient<IUseCaseAsync<ExcluirEmprestimoRequest, ExcluirEmprestimoResponse>, ExcluirEmprestimoUseCase>();
             services.AddAutoMapper(typeof(MappingProfile));
-            
+
             services.AddDbContext<ApplicationContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
                 .UseLoggerFactory(LoggerFactory.Create(builder => builder.AddConsole()))
-                );             
+                );
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -79,5 +78,6 @@ namespace Biblioteca.WoMakersCode.Api
                 endpoints.MapControllers();
             });
         }
+        
     }
 }
